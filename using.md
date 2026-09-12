@@ -1,6 +1,6 @@
 # 在用的
 
-這台機器上有接到、還在跑的上游。官方 repo 是別人的。接法見 [minibrain-cli](https://github.com/zaxardery8011-design/minibrain-cli)。
+這台機器上有接到、還在跑的上游。**不是這週才接。** 官方 repo 是別人的。接法見 [minibrain-cli](https://github.com/zaxardery8011-design/minibrain-cli)。每週只再跑 `doctor` 看還在不在。
 
 這台的口靠環境變數 `MINIBRAIN_TOOLS` 指到工具樹（`minibrain.ps1` 會找它的根、`bin\`、`models\`）。沒設就會顯示 MISSING；那不是沒裝，是沒指到。
 
