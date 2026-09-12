@@ -5,7 +5,12 @@
 ## 在用的（這週有接到、有驗）
 
 六個口收進 [minibrain-cli](https://github.com/zaxardery8011-design/minibrain-cli)：`md`／`hear`／`digest`／`shot`／`check`／`doctor`。  
-本機 doctor 對過 markitdown、whisper CUDA、ffmpeg、yt-dlp、gh、poppler、Edge。ollama 在另一台，digest 摘要可選。
+2026-09-12 doctor 輸出：
+
+```
+markitdown OK / whisper OK / whisper_model OK / ffmpeg OK / yt-dlp OK / gh OK / poppler OK / edge OK
+ollama MISSING / ollama_api MISSING（在另一台，digest 摘要可選）
+```
 
 ## 爬到的（這週留下／丟掉的抽樣）
 

@@ -2,6 +2,8 @@
 
 這台機器上有接到、還在跑的上游。官方 repo 是別人的。接法見 [minibrain-cli](https://github.com/zaxardery8011-design/minibrain-cli)。
 
+這台的口靠環境變數 `MINIBRAIN_TOOLS` 指到工具樹（`minibrain.ps1` 會找它的根、`bin\`、`models\`）。沒設就會顯示 MISSING；那不是沒裝，是沒指到。
+
 | 上游 | 接到哪個口 | 在這台做什麼 | 取捨 |
 |---|---|---|---|
 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | `md` | Excel 報價、ERP PDF、pptx 講義先變 Markdown 再讀 | xlsx 合併儲存格會變 Unnamed |
